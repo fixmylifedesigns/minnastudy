@@ -6,17 +6,27 @@ export default function Home() {
       {/* Hero Section */}
       <header className="w-full py-16 bg-gradient-to-r from-indigo-500 to-purple-600">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-6">MinnaStudy</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold mb-6">
+            Your Professional Teaching Website, Built for You
+          </h1>
           <p className="text-xl sm:text-2xl mb-8">
-            Your Complete Japanese Learning Hub
+            Showcase your pricing, study plans, and experience with a custom
+            website. Get a personalized .com or a subdomain like
+            yourname.minnastudy.com
           </p>
           <div className="flex gap-4 justify-center">
-            <button className="bg-white text-purple-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition-colors">
-              Start Learning
-            </button>
-            <button className="border-2 border-white text-white px-6 py-2 rounded-full font-semibold hover:bg-white/10 transition-colors">
-              For Teachers
-            </button>
+            <a
+              href="/contact"
+              className="bg-white text-purple-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition-colors"
+            >
+              Get Started Today
+            </a>
+            <a
+              href="/sample"
+              className="border-2 border-white text-white px-6 py-2 rounded-full font-semibold hover:bg-white/10 transition-colors"
+            >
+              See a template
+            </a>
           </div>
         </div>
       </header>
@@ -24,24 +34,27 @@ export default function Home() {
       <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Services Section */}
         <section className="mb-20 text-black">
-          <h2 className="text-3xl font-bold mb-8 text-center">Our Services</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">
+            Everything You Need for a Professional Online Presence
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="p-6 rounded-lg bg-white shadow-lg">
-              <h3 className="text-xl font-semibold mb-4">Learning Games</h3>
+              <h3 className="text-xl font-semibold mb-4">Custom Website</h3>
               <p className="text-gray-600">
-                Engaging games that make mastering Japanese fun and effective
+                Fully designed website tailored to your brand and teaching style
               </p>
             </div>
             <div className="p-6 rounded-lg bg-white shadow-lg">
-              <h3 className="text-xl font-semibold mb-4">Study Apps</h3>
+              <h3 className="text-xl font-semibold mb-4">Your Domain</h3>
               <p className="text-gray-600">
-                Tools for vocabulary, kanji, and grammar practice
+                Choose your own .com or use our free yourname.minnastudy.com
+                domain
               </p>
             </div>
             <div className="p-6 rounded-lg bg-white shadow-lg">
-              <h3 className="text-xl font-semibold mb-4">Teacher Resources</h3>
+              <h3 className="text-xl font-semibold mb-4">SEO Optimized</h3>
               <p className="text-gray-600">
-                Professional tools and websites for language educators
+                Help potential students find you easily through search engines
               </p>
             </div>
           </div>
@@ -50,7 +63,7 @@ export default function Home() {
         {/* Features Section */}
         <section className="mb-20">
           <h2 className="text-3xl font-bold mb-8 text-center">
-            Why Choose MinnaStudy
+            Why Language Teachers Trust Minna Study
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex flex-col gap-4">
@@ -59,9 +72,10 @@ export default function Home() {
                   <span className="text-purple-600">✓</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-2">Interactive Learning</h3>
+                  <h3 className="font-semibold mb-2">Teacher-Focused Design</h3>
                   <p className="text-gray-600">
-                    Engaging content that makes learning Japanese enjoyable
+                    We understand what teachers need – focused on showcasing
+                    your services effectively
                   </p>
                 </div>
               </div>
@@ -70,9 +84,11 @@ export default function Home() {
                   <span className="text-purple-600">✓</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-2">Proven Methods</h3>
+                  <h3 className="font-semibold mb-2">
+                    No Technical Skills Needed
+                  </h3>
                   <p className="text-gray-600">
-                    Based on effective learning methodologies
+                    We handle everything for you - just share your content
                   </p>
                 </div>
               </div>
@@ -84,10 +100,10 @@ export default function Home() {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">
-                    Comprehensive Resources
+                    Easy Contact Integration
                   </h3>
                   <p className="text-gray-600">
-                    Everything you need in one place
+                    Connect with LINE, Instagram, Email, and more
                   </p>
                 </div>
               </div>
@@ -96,9 +112,9 @@ export default function Home() {
                   <span className="text-purple-600">✓</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-2">Community Support</h3>
+                  <h3 className="font-semibold mb-2">Booking Integration</h3>
                   <p className="text-gray-600">
-                    Learn and grow with fellow Japanese learners
+                    Optional scheduling with Google Calendar, Calendly, or LINE
                   </p>
                 </div>
               </div>
@@ -106,47 +122,60 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Contact Section */}
+        <section className="mb-20 ">
+          <h2 className="text-3xl font-bold mb-8 text-center">
+            Get Your Custom Website
+          </h2>
+          <div className="max-w-2xl mx-auto p-8 rounded-lg bg-white shadow-lg text-black">
+            <p className="text-lg text-center mb-6">
+              We create custom websites tailored to your teaching needs and
+              budget. Contact us to discuss your requirements and get a
+              personalized quote.
+            </p>
+            <div className="flex flex-col items-center gap-6">
+              <div className="text-center">
+                <h3 className="font-semibold mb-2">
+                  Available Options Include:
+                </h3>
+                <ul className="space-y-2">
+                  <li className="flex items-center justify-center gap-2">
+                    <span className="text-purple-600">✓</span>
+                    <span>Custom domain or free minnastudy.com subdomain</span>
+                  </li>
+                  <li className="flex items-center justify-center gap-2">
+                    <span className="text-purple-600">✓</span>
+                    <span>Personalized pages for your services</span>
+                  </li>
+                  <li className="flex items-center justify-center gap-2">
+                    <span className="text-purple-600">✓</span>
+                    <span>Booking system integration</span>
+                  </li>
+                </ul>
+              </div>
+              <button className="bg-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-purple-700 transition-colors">
+                Contact Us for Details
+              </button>
+            </div>
+          </div>
+        </section>
+
         {/* CTA Section */}
         <section className="text-center bg-gray-50 rounded-xl p-8 mb-20">
-          <h2 className="text-3xl font-bold mb-4 text-black">Start Your Journey Today</h2>
+          <h2 className="text-3xl font-bold mb-4 text-black">
+            Get Your Website Today
+          </h2>
           <p className="text-gray-600 mb-6">
-            Join our community of Japanese learners
+            Join other successful language teachers online
           </p>
-          <button className="bg-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-purple-700 transition-colors">
-            Get Started
-          </button>
+          <a
+            href="/contact"
+            className="bg-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-purple-700 transition-colors"
+          >
+            Start Building
+          </a>
         </section>
       </main>
-
-      {/* Footer */}
-      <footer className="bg-gray-50 py-8">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div>
-              <h3 className="font-semibold mb-4">MinnaStudy</h3>
-              <p className="text-gray-600">Your Japanese learning companion</p>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-4">Resources</h3>
-              <ul className="text-gray-600">
-                <li className="mb-2">Learning Games</li>
-                <li className="mb-2">Study Apps</li>
-                <li className="mb-2">Teacher Tools</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-4">Contact</h3>
-              <ul className="text-gray-600">
-                <li className="mb-2">Email: hello@minnastudy.com</li>
-                <li className="mb-2">Twitter: @minnastudy</li>
-              </ul>
-            </div>
-          </div> */}
-          <div className="mt-8 pt-8 border-t border-gray-200 text-center text-gray-600">
-            <p>&copy; 2025 MinnaStudy. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
