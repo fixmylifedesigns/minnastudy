@@ -29,6 +29,8 @@ export const metadata = {
     "Japanese education",
     "language learning platform",
     "Japanese teaching tools",
+    "Minna Study",
+    "Minna No Nihongo"
   ],
   authors: [{ name: "MinnaStudy" }],
   openGraph: {

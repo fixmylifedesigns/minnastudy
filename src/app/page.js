@@ -7,10 +7,10 @@ export default function Home() {
       <header className="w-full py-16 bg-gradient-to-r from-indigo-500 to-purple-600">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <h1 className="text-4xl sm:text-5xl font-bold mb-6">
-            Your Professional Teaching Website, Built for You
+            Your Professional Website, Built for You
           </h1>
           <p className="text-xl sm:text-2xl mb-8">
-            Showcase your pricing, study plans, and experience with a custom
+            Showcase your pricing, plans, and experience with a custom
             website. Get a personalized .com or a subdomain like
             yourname.minnastudy.com
           </p>
@@ -62,7 +62,7 @@ export default function Home() {
 
         {/* Features Section */}
         <section className="mb-20">
-          <h2 className="text-3xl font-bold mb-8 text-center">
+          <h2 className="text-3xl font-bold mb-8 text-center text-black">
             Why Language Teachers Trust Minna Study
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -72,14 +72,14 @@ export default function Home() {
                   <span className="text-purple-600">✓</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-2">Teacher-Focused Design</h3>
+                  <h3 className="font-semibold mb-2 text-black">Teacher-Focused Design</h3>
                   <p className="text-gray-600">
                     We understand what teachers need – focused on showcasing
                     your services effectively
                   </p>
                 </div>
               </div>
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-4 text-black">
                 <div className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center flex-shrink-0">
                   <span className="text-purple-600">✓</span>
                 </div>
@@ -99,10 +99,10 @@ export default function Home() {
                   <span className="text-purple-600">✓</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-2">
+                  <h3 className="font-semibold mb-2 text-black">
                     Easy Contact Integration
                   </h3>
-                  <p className="text-gray-600">
+                  <p className="text-gray-600 text-black">
                     Connect with LINE, Instagram, Email, and more
                   </p>
                 </div>
@@ -112,7 +112,7 @@ export default function Home() {
                   <span className="text-purple-600">✓</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-2">Booking Integration</h3>
+                  <h3 className="font-semibold mb-2 text-black">Booking Integration</h3>
                   <p className="text-gray-600">
                     Optional scheduling with Google Calendar, Calendly, or LINE
                   </p>
@@ -124,7 +124,7 @@ export default function Home() {
 
         {/* Contact Section */}
         <section className="mb-20 ">
-          <h2 className="text-3xl font-bold mb-8 text-center">
+          <h2 className="text-3xl font-bold mb-8 text-center text-black">
             Get Your Custom Website
           </h2>
           <div className="max-w-2xl mx-auto p-8 rounded-lg bg-white shadow-lg text-black">
@@ -162,7 +162,7 @@ export default function Home() {
 
         {/* CTA Section */}
         <section className="text-center bg-gray-50 rounded-xl p-8 mb-20">
-          <h2 className="text-3xl font-bold mb-4 text-black">
+          <h2 className="text-3xl font-bold mb-4 text-blackFlexible Schedule Options">
             Get Your Website Today
           </h2>
           <p className="text-gray-600 mb-6">

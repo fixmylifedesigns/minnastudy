@@ -8,15 +8,19 @@ import {
   Globe,
   Users,
   ChevronDown,
+  Menu,
+  X,
 } from "lucide-react";
 
 export function Nav() {
   const [isSubmenuOpen, setIsSubmenuOpen] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
     <header className="bg-white shadow-sm border-t border-gray-300">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
+          {/* Logo */}
           <h1 className="text-xl font-bold text-rose-600">
             先生の日本語教室
             <span className="block text-sm text-gray-600">
@@ -24,7 +28,20 @@ export function Nav() {
             </span>
           </h1>
 
-          <nav>
+          {/* Mobile menu button */}
+          <button
+            className="lg:hidden text-gray-600 hover:text-gray-800"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            {isMobileMenuOpen ? (
+              <X className="h-6 w-6" />
+            ) : (
+              <Menu className="h-6 w-6" />
+            )}
+          </button>
+
+          {/* Desktop Navigation */}
+          <nav className="hidden lg:block">
             <ul className="flex items-center space-x-6">
               <li>
                 <a href="/sample" className="text-gray-600 hover:text-gray-800">
@@ -40,7 +57,7 @@ export function Nav() {
                   <ChevronDown className="ml-1 h-4 w-4" />
                 </button>
                 {isSubmenuOpen && (
-                  <ul className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1">
+                  <ul className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-50">
                     <li>
                       <a
                         href="/sample/beginner"
@@ -79,6 +96,71 @@ export function Nav() {
             </ul>
           </nav>
         </div>
+
+        {/* Mobile Navigation */}
+        {isMobileMenuOpen && (
+          <nav className="lg:hidden mt-4">
+            <ul className="flex flex-col space-y-4">
+              <li>
+                <a
+                  href="/sample"
+                  className="block text-gray-600 hover:text-gray-800"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <button
+                  className="flex items-center text-gray-600 hover:text-gray-800 w-full"
+                  onClick={() => setIsSubmenuOpen(!isSubmenuOpen)}
+                >
+                  Courses
+                  <ChevronDown
+                    className={`ml-1 h-4 w-4 transform transition-transform duration-200 ${
+                      isSubmenuOpen ? "rotate-180" : ""
+                    }`}
+                  />
+                </button>
+                {isSubmenuOpen && (
+                  <ul className="mt-2 ml-4 space-y-2">
+                    <li>
+                      <a
+                        href="/sample/beginner"
+                        className="block text-gray-700 hover:text-gray-900"
+                      >
+                        Beginner JLPT N5-N4
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/sample/intermediate"
+                        className="block text-gray-700 hover:text-gray-900"
+                      >
+                        Intermediate JLPT N3
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/sample/advanced"
+                        className="block text-gray-700 hover:text-gray-900"
+                      >
+                        Advanced JLPT N2-N1
+                      </a>
+                    </li>
+                  </ul>
+                )}
+              </li>
+              <li>
+                <a
+                  href="/sample/contact"
+                  className="inline-block bg-rose-600 text-white px-4 py-2 rounded-md hover:bg-rose-700"
+                >
+                  Book Trial Lesson
+                </a>
+              </li>
+            </ul>
+          </nav>
+        )}
       </div>
     </header>
   );

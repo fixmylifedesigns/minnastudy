@@ -69,7 +69,7 @@ export default function BeginnerPage() {
             <h2 className="text-2xl font-bold text-rose-600 mb-6">
               Schedule & Pricing
             </h2>
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid md:grid-cols-2 gap-8 text-black">
               <div>
                 <h3 className="text-xl font-bold mb-3">
                   Flexible Schedule Options
