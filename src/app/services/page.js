@@ -125,7 +125,7 @@ export default function ServicesPage() {
 
         {/* Features Section */}
         <section className="mb-20">
-          <h2 className="text-3xl font-bold mb-8 text-center text-white">
+          <h2 className="text-3xl font-bold mb-8 text-center text-black">
             Why Teachers Choose Our Solutions
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -135,7 +135,7 @@ export default function ServicesPage() {
                   <span className="text-purple-600">✓</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-2 text-white">
+                  <h3 className="font-semibold mb-2 text-black">
                     {feature.title}
                   </h3>
                   <p className="text-gray-600">{feature.description}</p>
@@ -147,7 +147,7 @@ export default function ServicesPage() {
 
         {/* Contact Section */}
         <section className="mb-20">
-          <h2 className="text-3xl font-bold mb-8 text-center text-white">
+          <h2 className="text-3xl font-bold mb-8 text-center text-black">
             Get Your Professional Online Presence
           </h2>
           <div className="max-w-2xl mx-auto p-8 rounded-lg bg-white shadow-lg">

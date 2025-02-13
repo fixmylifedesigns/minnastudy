@@ -162,7 +162,7 @@ export default function Home() {
 
         {/* CTA Section */}
         <section className="text-center bg-gray-50 rounded-xl p-8 mb-20">
-          <h2 className="text-3xl font-bold mb-4 text-blackFlexible Schedule Options">
+          <h2 className="text-3xl font-bold mb-4 text-blackFlexible Schedule Options text-black">
             Get Your Website Today
           </h2>
           <p className="text-gray-600 mb-6">
