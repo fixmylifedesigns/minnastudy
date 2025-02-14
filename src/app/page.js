@@ -167,7 +167,7 @@ export default function Home() {
         </section>
 
         {/* CTA Section */}
-        <section className="text-center bg-gray-50 rounded-xl p-8 mb-20">
+        <section className="text-center bg-gray-50 rounded-xl p-8">
           <h2 className="text-3xl font-bold mb-4 text-blackFlexible Schedule Options text-black">
             Get Your Website Today
           </h2>
