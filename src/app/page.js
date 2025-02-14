@@ -12,7 +12,7 @@ export default function Home() {
         </Link>
       </div>
 
-      <header className="w-full py-16 bg-gradient-to-r from-indigo-500 to-purple-600">
+      <header className="w-full py-16 bg-gradient-to-r from-indigo-500 to-blue-600">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <h1 className="text-4xl sm:text-5xl font-bold mb-6">
             Your Professional Website, Built for You
@@ -24,7 +24,7 @@ export default function Home() {
           <div className="flex gap-4 justify-center">
             <Link
               href="/contact"
-              className="bg-white text-purple-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition-colors"
+              className="bg-white text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition-colors"
             >
               Get Started Today
             </Link>
@@ -75,8 +75,8 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex flex-col gap-4">
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center flex-shrink-0">
-                  <span className="text-purple-600">✓</span>
+                <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                  <span className="text-blue-600">✓</span>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2 text-black">
@@ -89,8 +89,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex items-start gap-4 text-black">
-                <div className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center flex-shrink-0">
-                  <span className="text-purple-600">✓</span>
+                <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                  <span className="text-blue-600">✓</span>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">
@@ -104,8 +104,8 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-4">
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center flex-shrink-0">
-                  <span className="text-purple-600">✓</span>
+                <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                  <span className="text-blue-600">✓</span>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2 text-black">
@@ -117,8 +117,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center flex-shrink-0">
-                  <span className="text-purple-600">✓</span>
+                <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                  <span className="text-blue-600">✓</span>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2 text-black">
@@ -151,22 +151,22 @@ export default function Home() {
                 </h3>
                 <ul className="space-y-2">
                   <li className="flex items-center justify-center gap-2">
-                    <span className="text-purple-600">✓</span>
+                    <span className="text-blue-600">✓</span>
                     <span>Custom domain or free minnastudy.com subdomain</span>
                   </li>
                   <li className="flex items-center justify-center gap-2">
-                    <span className="text-purple-600">✓</span>
+                    <span className="text-blue-600">✓</span>
                     <span>Personalized pages for your services</span>
                   </li>
                   <li className="flex items-center justify-center gap-2">
-                    <span className="text-purple-600">✓</span>
+                    <span className="text-blue-600">✓</span>
                     <span>Booking system integration</span>
                   </li>
                 </ul>
               </div>
               <Link
                 href="/contact"
-                className="bg-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-purple-700 transition-colors"
+                className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors"
               >
                 Contact Us for Details
               </Link>
@@ -184,7 +184,7 @@ export default function Home() {
           </p>
           <Link
             href="/contact"
-            className="bg-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-purple-700 transition-colors"
+            className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors"
           >
             Start Building
           </Link>

@@ -114,7 +114,7 @@ export default function TeacherApplication() {
   return (
     <div className="min-h-screen">
       {/* Banner Section */}
-      <header className="w-full py-16 bg-gradient-to-r from-indigo-500 to-purple-600">
+      <header className="w-full py-16 bg-gradient-to-r from-indigo-500 to-blue-600">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <h1 className="text-4xl sm:text-5xl font-bold mb-6">
             MinnaStudy Creator Grant: Free Website Program for Teachers
@@ -170,7 +170,7 @@ export default function TeacherApplication() {
                       required
                       value={formData.name}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                      className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     />
                   </div>
                   <div>
@@ -187,7 +187,7 @@ export default function TeacherApplication() {
                       required
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                      className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     />
                   </div>
                   <div>
@@ -203,7 +203,7 @@ export default function TeacherApplication() {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                      className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     />
                   </div>
                   <div>
@@ -220,7 +220,7 @@ export default function TeacherApplication() {
                       value={formData.location}
                       onChange={handleChange}
                       placeholder="City, Country"
-                      className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                      className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     />
                   </div>
                 </div>
@@ -246,7 +246,7 @@ export default function TeacherApplication() {
                       value={formData.currentWebsite}
                       onChange={handleChange}
                       placeholder="https://..."
-                      className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                      className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     />
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -264,7 +264,7 @@ export default function TeacherApplication() {
                         value={formData.instagram}
                         onChange={handleChange}
                         placeholder="@username"
-                        className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                        className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                       />
                     </div>
                     <div>
@@ -281,7 +281,7 @@ export default function TeacherApplication() {
                         value={formData.tiktok}
                         onChange={handleChange}
                         placeholder="@username"
-                        className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                        className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                       />
                     </div>
                     <div>
@@ -298,7 +298,7 @@ export default function TeacherApplication() {
                         value={formData.youtube}
                         onChange={handleChange}
                         placeholder="Channel URL or @handle"
-                        className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                        className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                       />
                     </div>
                     <div>
@@ -315,7 +315,7 @@ export default function TeacherApplication() {
                         value={formData.twitch}
                         onChange={handleChange}
                         placeholder="username"
-                        className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                        className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                       />
                     </div>
                   </div>
@@ -342,7 +342,7 @@ export default function TeacherApplication() {
                       required
                       value={formData.teachingSubject}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                      className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     />
                   </div>
 
@@ -360,7 +360,7 @@ export default function TeacherApplication() {
                         required
                         value={formData.teachingExperience}
                         onChange={handleChange}
-                        className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                        className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                       >
                         <option value="">Select years of experience</option>
                         <option value="0-1">Less than 1 year</option>
@@ -384,7 +384,7 @@ export default function TeacherApplication() {
                         required
                         value={formData.teachingFormat}
                         onChange={handleChange}
-                        className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                        className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                       >
                         <option value="">Select teaching format</option>
                         <option value="online">Online Only</option>
@@ -414,7 +414,7 @@ export default function TeacherApplication() {
                             value={group}
                             checked={formData.studentAgeGroups.includes(group)}
                             onChange={handleAgeGroupChange}
-                            className="h-4 w-4 text-purple-600 focus:ring-purple-500 border-gray-300 rounded"
+                            className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
                           />
                           <span className="ml-2 text-gray-700">{group}</span>
                         </label>
@@ -436,7 +436,7 @@ export default function TeacherApplication() {
                       value={formData.studentsPerMonth}
                       onChange={handleChange}
                       min="0"
-                      className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                      className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     />
                   </div>
                 </div>
@@ -462,7 +462,7 @@ export default function TeacherApplication() {
                       value={formData.websiteGoals}
                       onChange={handleChange}
                       rows={4}
-                      className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                      className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                       placeholder="Describe your main reasons for wanting a website..."
                     />
                   </div>
@@ -481,7 +481,7 @@ export default function TeacherApplication() {
                       value={formData.websiteUse}
                       onChange={handleChange}
                       rows={4}
-                      className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                      className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                       placeholder="Explain how you plan to use the website..."
                     />
                   </div>
@@ -499,7 +499,7 @@ export default function TeacherApplication() {
                       value={formData.specificFeatures}
                       onChange={handleChange}
                       rows={4}
-                      className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                      className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                       placeholder="List any specific features or functionality you'd like (e.g., booking system, blog, course platform)..."
                     />
                   </div>
@@ -510,7 +510,7 @@ export default function TeacherApplication() {
                 <button
                   type="submit"
                   disabled={status.submitting}
-                  className="w-full bg-purple-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-purple-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {status.submitting ? "Submitting..." : "Submit Application"}
                 </button>

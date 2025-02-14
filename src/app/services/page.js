@@ -76,7 +76,7 @@ export default function ServicesPage() {
   return (
     <div className="grid grid-rows-[auto_1fr_auto] min-h-screen text-black">
       {/* Hero Section */}
-      <header className="w-full py-16 bg-gradient-to-r from-indigo-500 to-purple-600">
+      <header className="w-full py-16 bg-gradient-to-r from-indigo-500 to-blue-600">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <h1 className="text-4xl sm:text-5xl font-bold mb-6">
             Digital Solutions for Modern Teachers
@@ -88,7 +88,7 @@ export default function ServicesPage() {
           {/* <div className="flex gap-4 justify-center">
             <a
               href="/contact"
-              className="bg-white text-purple-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition-colors"
+              className="bg-white text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition-colors"
             >
               Start Your Project
             </a>
@@ -111,9 +111,9 @@ export default function ServicesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
               <div key={index} className="p-6 rounded-lg bg-white shadow-lg">
-                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
                   {React.createElement(service.icon, {
-                    className: "w-6 h-6 text-purple-600",
+                    className: "w-6 h-6 text-blue-600",
                   })}
                 </div>
                 <h3 className="text-xl font-semibold mb-4">{service.title}</h3>
@@ -131,8 +131,8 @@ export default function ServicesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {features.map((feature, index) => (
               <div key={index} className="flex items-start gap-4">
-                <div className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center flex-shrink-0">
-                  <span className="text-purple-600">✓</span>
+                <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                  <span className="text-blue-600">✓</span>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2 text-black">
@@ -163,20 +163,20 @@ export default function ServicesPage() {
                 </h3>
                 <ul className="space-y-2">
                   <li className="flex items-center justify-center gap-2">
-                    <span className="text-purple-600">✓</span>
+                    <span className="text-blue-600">✓</span>
                     <span>Custom domain or free minnastudy.com subdomain</span>
                   </li>
                   <li className="flex items-center justify-center gap-2">
-                    <span className="text-purple-600">✓</span>
+                    <span className="text-blue-600">✓</span>
                     <span>Integrated booking and payment systems</span>
                   </li>
                   <li className="flex items-center justify-center gap-2">
-                    <span className="text-purple-600">✓</span>
+                    <span className="text-blue-600">✓</span>
                     <span>AI content creation tools and training</span>
                   </li>
                 </ul>
               </div>
-              <button className="bg-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-purple-700 transition-colors">
+              <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors">
                 Get Started Today
               </button>
             </div>
@@ -193,7 +193,7 @@ export default function ServicesPage() {
           </p>
           <a
             href="/contact"
-            className="bg-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-purple-700 transition-colors inline-block"
+            className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors inline-block"
           >
             Start Building
           </a>

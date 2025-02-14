@@ -84,7 +84,7 @@ export default function Submissions() {
 
     const iconProps = {
       size: 20,
-      className: "text-gray-600 hover:text-purple-600",
+      className: "text-gray-600 hover:text-blue-600",
     };
 
     const icons = {
@@ -147,7 +147,7 @@ export default function Submissions() {
           </h1>
           <button
             onClick={fetchSubmissions}
-            className="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700"
+            className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
           >
             Refresh
           </button>
@@ -191,7 +191,7 @@ export default function Submissions() {
                           onClick={() =>
                             setExpandedRow(expandedRow === index ? null : index)
                           }
-                          className="text-gray-500 hover:text-purple-600"
+                          className="text-gray-500 hover:text-blue-600"
                         >
                           {expandedRow === index ? (
                             <ChevronUp size={20} />

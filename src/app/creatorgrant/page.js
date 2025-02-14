@@ -6,7 +6,7 @@ export default function TeacherApplication() {
   return (
     <div className="grid grid-rows-[auto_1fr_auto] min-h-screen">
       {/* Hero Section */}
-      <header className="w-full py-16 bg-gradient-to-r from-indigo-500 to-purple-600">
+      <header className="w-full py-16 bg-gradient-to-r from-indigo-500 to-blue-600">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <h1 className="text-4xl sm:text-5xl font-bold mb-6">
             MinnaStudy Creator Grant: Free Website Program for Teachers
@@ -17,7 +17,7 @@ export default function TeacherApplication() {
           </p>
           <Link
             href="/creatorgrant/apply"
-            className="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
+            className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
           >
             Apply for MinnaStudy Creator Grant
           </Link>
@@ -66,8 +66,8 @@ export default function TeacherApplication() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex items-start gap-4">
-              <div className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center flex-shrink-0">
-                <span className="text-purple-600">✓</span>
+              <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                <span className="text-blue-600">✓</span>
               </div>
               <div>
                 <h3 className="font-semibold mb-2 text-black">
@@ -79,8 +79,8 @@ export default function TeacherApplication() {
               </div>
             </div>
             <div className="flex items-start gap-4">
-              <div className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center flex-shrink-0">
-                <span className="text-purple-600">✓</span>
+              <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                <span className="text-blue-600">✓</span>
               </div>
               <div>
                 <h3 className="font-semibold mb-2 text-black">
@@ -92,8 +92,8 @@ export default function TeacherApplication() {
               </div>
             </div>
             <div className="flex items-start gap-4">
-              <div className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center flex-shrink-0">
-                <span className="text-purple-600">✓</span>
+              <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                <span className="text-blue-600">✓</span>
               </div>
               <div>
                 <h3 className="font-semibold mb-2 text-black">
@@ -105,8 +105,8 @@ export default function TeacherApplication() {
               </div>
             </div>
             <div className="flex items-start gap-4">
-              <div className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center flex-shrink-0">
-                <span className="text-purple-600">✓</span>
+              <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                <span className="text-blue-600">✓</span>
               </div>
               <div>
                 <h3 className="font-semibold mb-2 text-black">
@@ -153,7 +153,7 @@ export default function TeacherApplication() {
           </p>
           <Link
             href="/creatorgrant/apply"
-            className="bg-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-purple-700 transition-colors inline-block"
+            className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors inline-block"
           >
             Apply for MinnaStudy Creator Grant
           </Link>
