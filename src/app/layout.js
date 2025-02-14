@@ -15,24 +15,25 @@ const geistMono = Geist_Mono({
 export const metadata = {
   metadataBase: new URL("https://minnastudy.com"),
   title: {
-    default: "MinnaStudy - Japanese Learning Tools, Games & Language Resources",
+    default:
+      "MinnaStudy - Website & Software Tools for Teachers & Content Creators",
     template: "%s | MinnaStudy",
   },
   description:
-    "MinnaStudy offers interactive Japanese learning tools, language games, and educational resources. Perfect for students, teachers, and language enthusiasts.",
+    "MinnaStudy helps teachers and content creators build custom websites, software, and learning tools. We also offer interactive Japanese language resources and games.",
   keywords: [
-    "Japanese learning",
-    "language games",
-    "Japanese study tools",
-    "learning Japanese",
-    "Japanese language resources",
-    "Japanese education",
-    "language learning platform",
-    "Japanese teaching tools",
-    "Minna Study",
-    "Minna No Nihongo",
+    "website builder for teachers",
+    "teaching website creation",
+    "software for educators",
+    "content creator tools",
+    "Japanese learning platform",
+    "Japanese teaching resources",
+    "language education software",
+    "online teaching tools",
     "MinnaStudy",
-    "Creator Grant",
+    "Minna No Nihongo",
+    "interactive language learning",
+    "e-learning platform",
   ],
   authors: [{ name: "MinnaStudy" }],
   openGraph: {
@@ -40,28 +41,32 @@ export const metadata = {
     locale: "en_US",
     url: "https://minnastudy.com",
     siteName: "MinnaStudy",
-    title: "MinnaStudy - Japanese Learning Tools & Resources",
+    title:
+      "MinnaStudy - Website & Software Tools for Teachers & Content Creators",
     description:
-      "Interactive Japanese learning tools, games, and resources for students and teachers.",
+      "Build custom websites and software with MinnaStudy. Designed for teachers, content creators, and educators. Also offering Japanese language learning tools.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "MinnaStudy - Japanese Learning Platform",
+        alt: "MinnaStudy - Website & Software Builder for Educators",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "MinnaStudy - Japanese Learning Tools & Resources",
+    // site: "@YourTwitterHandle", // Add your Twitter handle
+    title:
+      "MinnaStudy - Website & Software Tools for Teachers & Content Creators",
     description:
-      "Interactive Japanese learning tools, games, and resources for students and teachers.",
-    images: ["/og-image.png"],
+      "Create custom teaching websites, software, and Japanese learning tools with MinnaStudy. Perfect for educators and content creators.",
+    images: ["/og-image.png"], // Use a dedicated Twitter image
   },
   robots: {
     index: true,
     follow: true,
+    sitemap: "https://minnastudy.com/sitemap.xml",
     googleBot: {
       index: true,
       follow: true,
@@ -71,15 +76,28 @@ export const metadata = {
     },
   },
   verification: {
-    google: "your-google-verification-code",
-    yandex: "your-yandex-verification-code",
+    google: "googlef030e8ea8cda5076",
+    // bing: "your-bing-verification-code",
+    // yandex: "your-yandex-verification-code",
+    // pinterest: "your-pinterest-verification-code",
   },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+  themeColor: "#ffffff",
+  sitemap: "https://minnastudy.com/sitemap.xml",
   alternates: {
     canonical: "https://minnastudy.com",
     languages: {
       "en-US": "https://minnastudy.com/en-US",
       "ja-JP": "https://minnastudy.com/ja-JP",
     },
+    hreflang: [
+      { href: "https://minnastudy.com/en-US", lang: "en" },
+      { href: "https://minnastudy.com/ja-JP", lang: "ja" },
+    ],
   },
 };
 
