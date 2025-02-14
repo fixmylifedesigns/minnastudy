@@ -1,7 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navigation from "@/components/ui/nav";
-import Link from "next/link";
+import { Stickynote, Footer, Navigation } from "@/components/ui";
 
 const geistSans = Geist({
   subsets: ["latin"],
@@ -97,22 +96,9 @@ export default function RootLayout({ children }) {
         suppressHydrationWarning
       >
         <Navigation />
-        <div className="w-full bg-yellow-400 text-black text-center py-2 font-semibold">
-          🎉 Apply for our Creator Grant for a chance to get a free professional
-          website!{" "}
-          <Link href="/creatorgrant" className="underline">
-            Learn more
-          </Link>
-        </div>
+        <Stickynote />
         <main className="flex-grow">{children}</main>
-        {/* Footer */}
-        <footer className="bg-gray-50 py-8">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="mt-8 pt-8 border-t border-gray-200 text-center text-gray-600">
-              <p>&copy; 2025 MinnaStudy. All rights reserved.</p>
-            </div>
-          </div>
-        </footer>
+        <Footer />
       </body>
     </html>
   );
