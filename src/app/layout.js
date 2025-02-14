@@ -30,7 +30,9 @@ export const metadata = {
     "language learning platform",
     "Japanese teaching tools",
     "Minna Study",
-    "Minna No Nihongo"
+    "Minna No Nihongo",
+    "MinnaStudy",
+    "creator grant",
   ],
   authors: [{ name: "MinnaStudy" }],
   openGraph: {
@@ -55,7 +57,7 @@ export const metadata = {
     title: "MinnaStudy - Japanese Learning Tools & Resources",
     description:
       "Interactive Japanese learning tools, games, and resources for students and teachers.",
-    images: ["/twitter-image.png"],
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,
@@ -89,7 +91,10 @@ export default function RootLayout({ children }) {
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
       </head>
-      <body className="min-h-screen flex flex-col" suppressHydrationWarning>
+      <body
+        className="min-h-screen flex flex-col text-black"
+        suppressHydrationWarning
+      >
         <Navigation />
         <main className="flex-grow">{children}</main>
         {/* Footer */}

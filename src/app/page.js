@@ -1,32 +1,39 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="grid grid-rows-[auto_1fr_auto] min-h-screen">
       {/* Hero Section */}
+      <div className="w-full bg-yellow-400 text-black text-center py-2 font-semibold">
+        🎉 Apply for our Creator Grant for a chance to get a free professional
+        website!{" "}
+        <Link href="/creatorgrant" className="underline">
+          Learn more
+        </Link>
+      </div>
+
       <header className="w-full py-16 bg-gradient-to-r from-indigo-500 to-purple-600">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <h1 className="text-4xl sm:text-5xl font-bold mb-6">
             Your Professional Website, Built for You
           </h1>
           <p className="text-xl sm:text-2xl mb-8">
-            Showcase your pricing, plans, and experience with a custom
-            website. Get a personalized .com or a subdomain like
-            yourname.minnastudy.com
+            Showcase your pricing, plans, and experience with a custom website.
+            Get a personalized .com or a subdomain like yourname.minnastudy.com
           </p>
           <div className="flex gap-4 justify-center">
-            <a
+            <Link
               href="/contact"
               className="bg-white text-purple-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition-colors"
             >
               Get Started Today
-            </a>
-            <a
+            </Link>
+            <Link
               href="/sample"
               className="border-2 border-white text-white px-6 py-2 rounded-full font-semibold hover:bg-white/10 transition-colors"
             >
               See a template
-            </a>
+            </Link>
           </div>
         </div>
       </header>
@@ -72,7 +79,9 @@ export default function Home() {
                   <span className="text-purple-600">✓</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-2 text-black">Teacher-Focused Design</h3>
+                  <h3 className="font-semibold mb-2 text-black">
+                    Teacher-Focused Design
+                  </h3>
                   <p className="text-gray-600">
                     We understand what teachers need – focused on showcasing
                     your services effectively
@@ -112,7 +121,9 @@ export default function Home() {
                   <span className="text-purple-600">✓</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-2 text-black">Booking Integration</h3>
+                  <h3 className="font-semibold mb-2 text-black">
+                    Booking Integration
+                  </h3>
                   <p className="text-gray-600">
                     Optional scheduling with Google Calendar, Calendly, or LINE
                   </p>
@@ -168,12 +179,12 @@ export default function Home() {
           <p className="text-gray-600 mb-6">
             Join other successful language teachers online
           </p>
-          <a
+          <Link
             href="/contact"
             className="bg-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-purple-700 transition-colors"
           >
             Start Building
-          </a>
+          </Link>
         </section>
       </main>
     </div>
