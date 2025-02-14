@@ -164,9 +164,12 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
-              <button className="bg-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-purple-700 transition-colors">
+              <Link
+                href="/contact"
+                className="bg-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-purple-700 transition-colors"
+              >
                 Contact Us for Details
-              </button>
+              </Link>
             </div>
           </div>
         </section>
