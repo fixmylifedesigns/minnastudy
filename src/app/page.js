@@ -4,14 +4,6 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[auto_1fr_auto] min-h-screen">
       {/* Hero Section */}
-      <div className="w-full bg-yellow-400 text-black text-center py-2 font-semibold">
-        🎉 Apply for our Creator Grant for a chance to get a free professional
-        website!{" "}
-        <Link href="/creatorgrant" className="underline">
-          Learn more
-        </Link>
-      </div>
-
       <header className="w-full py-16 bg-gradient-to-r from-indigo-500 to-blue-600">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <h1 className="text-4xl sm:text-5xl font-bold mb-6">

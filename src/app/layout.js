@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/ui/nav";
+import Link from "next/link";
 
 const geistSans = Geist({
   subsets: ["latin"],
@@ -32,7 +33,7 @@ export const metadata = {
     "Minna Study",
     "Minna No Nihongo",
     "MinnaStudy",
-    "creator grant",
+    "Creator Grant",
   ],
   authors: [{ name: "MinnaStudy" }],
   openGraph: {
@@ -96,6 +97,13 @@ export default function RootLayout({ children }) {
         suppressHydrationWarning
       >
         <Navigation />
+        <div className="w-full bg-yellow-400 text-black text-center py-2 font-semibold">
+          🎉 Apply for our Creator Grant for a chance to get a free professional
+          website!{" "}
+          <Link href="/creatorgrant" className="underline">
+            Learn more
+          </Link>
+        </div>
         <main className="flex-grow">{children}</main>
         {/* Footer */}
         <footer className="bg-gray-50 py-8">
