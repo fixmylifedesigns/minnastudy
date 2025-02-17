@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import {
   ChevronDown,
   ChevronUp,
@@ -27,6 +28,7 @@ const TikTokIcon = ({ size, className }) => (
 );
 
 export default function Submissions() {
+  const router = useRouter();
   const [submissions, setSubmissions] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -35,7 +37,13 @@ export default function Submissions() {
   const itemsPerPage = 10;
 
   useEffect(() => {
-    fetchSubmissions();
+    // Check for admin password in localStorage
+    const adminPassword = localStorage.getItem("admin");
+    if (!adminPassword && adminPassword === "moeno") {
+      router.push("/");
+    } else {
+      fetchSubmissions();
+    }
   }, []);
 
   const fetchSubmissions = async () => {
