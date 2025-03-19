@@ -5,7 +5,7 @@ export default function PricingPage() {
   const plans = [
     {
       title: "Basic Plan (Template-Based)",
-      price: "$20/month + $120 setup",
+      price: "$5/month + $120 setup",
       description:
         "For teachers who want a simple, professional website using our template.",
       features: [
@@ -20,7 +20,7 @@ export default function PricingPage() {
     },
     {
       title: "Domain Plan",
-      price: "$30/month + setup",
+      price: "$10/month + setup",
       description:
         "For teachers who want their own domain and extra features. You can purchase a domain from us or provide your own.",
       features: [

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import BetaAnnouncement from "@/components/BetaAnnouncement";
 
 export default function Home() {
   return (
@@ -31,6 +32,8 @@ export default function Home() {
       </header>
 
       <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        {/* Beta Announcement - added here */}
+        <BetaAnnouncement />
         {/* Services Section */}
         <section className="mb-20 text-black">
           <h2 className="text-3xl font-bold mb-8 text-center">

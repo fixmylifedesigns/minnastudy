@@ -9,6 +9,7 @@ import {
   Globe,
   Twitch,
 } from "lucide-react";
+import BetaApplicationsDashboard from "@/components/BetaApplicationsDashboard.js";
 
 const TikTokIcon = ({ size, className }) => (
   <svg
@@ -373,6 +374,7 @@ export default function Submissions() {
             </div>
           </div>
         </div>
+        <BetaApplicationsDashboard />
       </div>
     </div>
   );
